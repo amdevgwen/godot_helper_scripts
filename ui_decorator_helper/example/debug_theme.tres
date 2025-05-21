@@ -1,0 +1,35 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://bpchk22srledr"]
+
+[ext_resource type="StyleBox" uid="uid://b700vq3usns8l" path="res://ui_decorator_helper/example/theme/caret_follow_stylebox.tres" id="1_ohfys"]
+[ext_resource type="StyleBox" uid="uid://cn3li774c187r" path="res://ui_decorator_helper/example/theme/stylebox_disabled.tres" id="1_rc3nm"]
+[ext_resource type="StyleBox" uid="uid://devrun4i2c8en" path="res://ui_decorator_helper/example/theme/stylebox_normal.tres" id="1_uklsl"]
+[ext_resource type="StyleBox" uid="uid://nlxfnfrfcty7" path="res://ui_decorator_helper/example/theme/stylebox_focus.tres" id="2_uds1i"]
+[ext_resource type="StyleBox" uid="uid://c0w4krwmpqef3" path="res://ui_decorator_helper/example/theme/stylebox_hover.tres" id="3_rbvyo"]
+[ext_resource type="StyleBox" uid="uid://cdmlr78be8w7w" path="res://ui_decorator_helper/example/theme/stylebox_pressed.tres" id="5_168aq"]
+
+[resource]
+CaretFollow/base_type = &"Panel"
+CaretFollow/styles/panel = ExtResource("1_ohfys")
+TweenerButton/colors/font_color = Color(0.875, 0.875, 0.875, 1)
+TweenerButton/colors/font_disabled_color = Color(0.875, 0.875, 0.875, 0.5)
+TweenerButton/colors/font_focus_color = Color(0.95, 0.95, 0.95, 1)
+TweenerButton/colors/font_hover_color = Color(0.95, 0.95, 0.95, 1)
+TweenerButton/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+TweenerButton/colors/font_outline_color = Color(0, 0, 0, 1)
+TweenerButton/colors/font_pressed_color = Color(1, 1, 1, 1)
+TweenerButton/colors/icon_disabled_color = Color(1, 1, 1, 0.4)
+TweenerButton/colors/icon_focus_color = Color(1, 1, 1, 1)
+TweenerButton/colors/icon_hover_color = Color(1, 1, 1, 1)
+TweenerButton/colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+TweenerButton/colors/icon_normal_color = Color(1, 1, 1, 1)
+TweenerButton/colors/icon_pressed_color = Color(1, 1, 1, 1)
+TweenerButton/constants/align_to_largest_stylebox = 0
+TweenerButton/constants/h_separation = 4
+TweenerButton/constants/icon_max_width = 0
+TweenerButton/constants/outline_size = 0
+TweenerButton/font_sizes/font_size = 16
+TweenerButton/styles/disabled = ExtResource("1_rc3nm")
+TweenerButton/styles/focus = ExtResource("2_uds1i")
+TweenerButton/styles/hover = ExtResource("3_rbvyo")
+TweenerButton/styles/normal = ExtResource("1_uklsl")
+TweenerButton/styles/pressed = ExtResource("5_168aq")

@@ -1,0 +1,13 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://nlxfnfrfcty7"]
+
+[ext_resource type="Texture2D" uid="uid://bfua5lhl18oi4" path="res://ui_decorator_helper/example/theme/hexagon_32_focus.png" id="1_41x8w"]
+
+[resource]
+content_margin_top = 6.0
+content_margin_bottom = 6.0
+texture = ExtResource("1_41x8w")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+modulate_color = Color(1, 1, 1, 0.74902)
