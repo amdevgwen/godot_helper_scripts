@@ -41,9 +41,13 @@ func _update_dimensions():
 		font_size = label_settings.font_size	
 	else:		
 		font_ref = get_theme_font("font")	
-		font_size = get_theme_font_size("font")	
+		font_size = get_theme_font_size("font_size")
+	
 	if not (font_ref):
 		font_ref = get_theme_default_font()
+	if not font_size:
+		font_size = get_theme_default_font_size()
+	
 	_scroll_period = font_ref.get_string_size(_check_string, HORIZONTAL_ALIGNMENT_LEFT, -1, font_size).x
 
 	var actual_text : String = ""	
